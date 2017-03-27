@@ -7,7 +7,7 @@ float speed = 1; //player movement speed
 //colors
 int redColor = #CB4646; //player 1 color
 int blueColor = #4652CB; //player 2 color
-int backgroundColor = #DBE3B3; //background color
+int backgroundColor = 0; //background color
 float player1X = 600/3-s;  //HOW COME width/3 DOESN'T WORK??????????
 float player2X = 600*2/3;
 float playerY = 600/2-(s/2);
@@ -25,7 +25,7 @@ int gameScreen = 0;
 /******* SETUP *******/
 void setup(){
   //background(backgroundColor);
-  size(600, 600);
+  size(1000, 600);
   smooth();
 }
 
